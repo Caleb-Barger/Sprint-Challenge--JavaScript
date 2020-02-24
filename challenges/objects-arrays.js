@@ -84,10 +84,6 @@ Once you have the new array created, sort the universities alphabetically and lo
 let universities = graduates.map(graduate => graduate.university);
 console.log(universities.sort());
 
-
-const universities = [];
-console.log(universities);
-
 /* Request 2: Create a new array called contactInfo that contains both first name and email of each student. This will be an array of strings.
 
 The resulting contact information strings should have a space between the first name and the email, like this: 
